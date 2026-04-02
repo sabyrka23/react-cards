@@ -24,7 +24,7 @@ export const Header = () => {
       </Link>
 
       <div className={styles.actions}>
-        <Button>Add</Button>
+        <Button isDisabled>Add</Button>
         <Button>Login</Button>
       </div>
     </header>
