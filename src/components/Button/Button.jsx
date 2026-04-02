@@ -1,8 +1,8 @@
 import styles from './Button.module.css'
 
-export const Button = ({ children, isDisabled, type = 'button' }) => {
+export const Button = ({ children, onClick, isDisabled, type = 'button' }) => {
   return (
-    <button className={styles.button} type={type} disabled={isDisabled}>
+    <button className={styles.button} type={type} onClick={onClick} disabled={isDisabled}>
       {children}
     </button>
   )
