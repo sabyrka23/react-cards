@@ -16,13 +16,3 @@
 .main {
   padding-inline: 20px;
 }
-
-.footer {
-  display: flex;
-  flex-direction: column;
-  row-gap: 4px;
-  width: 100%;
-  padding-block: 15px;
-  background-color: transparent;
-  text-align: center;
-}
