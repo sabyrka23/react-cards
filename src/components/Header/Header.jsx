@@ -20,9 +20,7 @@ export const Header = () => {
         <Logo />
       </Link>
       <div className={styles.actions}>
-        <Button onClick={handleAddQuestion} isDisabled>
-          Add
-        </Button>
+        <Button onClick={handleAddQuestion}>Add</Button>
         <Button onClick={handleLogin}>Login</Button>
       </div>
     </header>
