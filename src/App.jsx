@@ -1,5 +1,7 @@
+import { MainLayout } from './components'
+
 function App() {
-  return <h1>React Cards</h1>
+  return <MainLayout />
 }
 
 export default App
