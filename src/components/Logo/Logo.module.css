@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.logoImage {
+  display: flex;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+}
