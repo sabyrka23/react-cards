@@ -8,6 +8,7 @@ function App() {
         <Route element={<MainLayout />}>
           <Route index element={<h1>Home</h1>} />
           <Route path="add-question" element={<h1>Add Question</h1>} />
+          <Route path="login" element={<h1>Login</h1>} />
         </Route>
       </Routes>
     </BrowserRouter>
