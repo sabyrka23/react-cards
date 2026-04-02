@@ -4,6 +4,9 @@
 :root {
   --bg: #eee;
   --text: #23272f;
+
+  --accent: #61dafb;
+  --accent-darker: #21a1f1;
 }
 
 body {
@@ -13,18 +16,21 @@ body {
 }
 
 a {
-  color: #61dafb;
+  color: var(--accent-darker);
   text-decoration: none;
   transition-duration: 0.2s;
 }
 
 a:hover {
-  color: #21a1f1;
+  color: var(--accent);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #23272f;
     --text: #eee;
+
+    --accent: #21a1f1;
+    --accent-darker: #61dafb;
   }
 }
