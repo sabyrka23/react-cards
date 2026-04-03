@@ -1,0 +1,24 @@
+@use 'helpers' as *;
+
+:root {
+  --color-bg: #fff;
+  --color-text: #404756;
+  --color-heading: #23272f;
+  --color-accent: #087ea4;
+
+  --font-family: 'Karla';
+
+  --container-width: #{$container-desktop-width}px;
+  --container-padding-x: 16px;
+
+  --transition-duration: 0.2s;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #23272f;
+    --color-text: #f6f7f9;
+    --color-heading: #f6f7f9;
+    --color-accent: #58c4dc;
+  }
+}
