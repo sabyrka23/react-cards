@@ -8,8 +8,13 @@ function App() {
       <Routes>
         <Route element={<MainLayout />}>
           <Route index element={<HomePage />} />
+
           <Route path="add-question" element={<h1>Add Question</h1>} />
           <Route path="login" element={<h1>Login</h1>} />
+
+          <Route path="questions/:id" element={<h1>Question Details</h1>} />
+
+          <Route path="*" element={<h1>Page Not Found</h1>} />
         </Route>
       </Routes>
     </BrowserRouter>
