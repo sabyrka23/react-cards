@@ -7,6 +7,11 @@
 
   --accent: #61dafb;
   --accent-darker: #21a1f1;
+
+  --button-bg: #57c4dc;
+  --button-text: #fff;
+
+  --card-bg: #ebedf0;
 }
 
 body {
@@ -32,5 +37,10 @@ a:hover {
 
     --accent: #21a1f1;
     --accent-darker: #61dafb;
+
+    --button-bg: #383b3f;
+    --button-text: #fff;
+
+    --card-bg: #343a46;
   }
 }
