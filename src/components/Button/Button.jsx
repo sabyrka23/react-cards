@@ -1,8 +1,9 @@
+import clsx from 'clsx'
 import styles from './Button.module.css'
 
-export const Button = ({ children, onClick, isDisabled, type = 'button' }) => {
+export const Button = ({ children, className, onClick, isDisabled, type = 'button' }) => {
   return (
-    <button className={styles.button} type={type} onClick={onClick} disabled={isDisabled}>
+    <button className={clsx(styles.button, className)} type={type} onClick={onClick} disabled={isDisabled}>
       {children}
     </button>
   )
